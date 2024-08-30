@@ -164,6 +164,7 @@ The returned data/struct of type `VeNFT` values represent:
   * `decimals` - veNFT token decimals
   * `amount` - veNFT locked amount
   * `voting_amount` - veNFT voting power
+  * `governance_amount` - veNFT voting power in governance
   * `rebase_amount` - veNFT accrued reabses amount
   * `expires_at` - veNFT lock expiration timestamp
   * `voted_at` - veNFT last vote timestamp
@@ -171,6 +172,7 @@ The returned data/struct of type `VeNFT` values represent:
     `LpVotes`
   * `token` - veNFT locked token address
   * `permanent` - veNFT permanent lock enabled flag
+  * `delegate_id` - token ID of the veNFT being delegated to
 
 The pool votes struct values represent:
   * `lp` - the pool address
